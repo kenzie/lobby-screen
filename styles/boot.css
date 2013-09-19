@@ -1,0 +1,40 @@
+/* COMMON */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #111; 
+  color: #eee;
+  font-family: verdana;
+  font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* STAGE */
+
+#stage, #pre_stage {
+  height: 1080px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+#pre_stage {
+  background: url(../images/stage-bg-rinkbook.png) no-repeat top left;
+}
+
+#loading {
+  background: url(../images/loading-animation.gif) no-repeat top left;
+  bottom: 20px;
+  height: 31px;
+  position: absolute;
+  right: 20px;
+  width: 31px;
+}

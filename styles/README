@@ -1,0 +1,11 @@
+Lobby Screen
+============
+
+An initialization web page that shows a splash screen, loads a remote
+web page via ajax, then transitions from splash screen to remote page
+content. If the remote page is inaccessible it will be retried at
+regular intervals.
+
+For use as a locally loaded page on a Raspberry Pi setup for digital
+signage in an arena lobby in an attempt to prevent showing 404 or
+similar errors to the public.
