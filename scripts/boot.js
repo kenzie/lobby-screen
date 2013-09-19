@@ -1,5 +1,5 @@
 // how long to show the splash screen
-var stage_delay = 5 * 1000;
+var stage_delay = 10 * 1000;
 // initial url for display
 var stage_url   = "http://live.almacinnissportscentre.com/";
 

@@ -7,7 +7,7 @@
 
 body {
   background: #111; 
-  color: #eee;
+  color: #ccc;
   font-family: verdana;
   font-size: 16px;
 }
@@ -19,6 +19,7 @@ body {
 /* STAGE */
 
 #stage, #pre_stage {
+  border: 0;
   height: 1080px;
   left: 0;
   overflow: hidden;
@@ -31,10 +32,14 @@ body {
 }
 
 #loading {
-  background: url(../images/loading-animation.gif) no-repeat top left;
   bottom: 20px;
-  height: 31px;
+  font-size: 21px;
   position: absolute;
-  right: 20px;
-  width: 31px;
+  right: 50%;
+  left: 50%;
+  text-align: center;
+  width: 200px;
+}
+#loading img {
+  margin: 2px;
 }
